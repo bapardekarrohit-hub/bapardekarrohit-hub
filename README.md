@@ -1,5 +1,6 @@
+
 <!-- ============================================================
-  ROHIT.exe — GitHub Profile README
+  ROHIT.Tech — GitHub Profile README
   Search for "CUSTOMIZE" to find everything you should edit.
   Username used in all stat links: bapardekarrohit-hub
   Colors: midnight #0D1117 | cyan #00E5FF | violet #8B5CF6
@@ -32,7 +33,7 @@
 ```python
 # about_rohit.py
 class Rohit:
-    name      = "Rohit Wadekar"          # CUSTOMIZE: confirm your surname
+    name      = "Rohit Bapardekar"          # CUSTOMIZE: confirm your surname
     role      = "Computer Science Graduate"
     interests = ["AI", "Data Science", "Software Engineering",
                  "Web Development", "Android Development"]
@@ -184,7 +185,7 @@ Personal portfolio website showcasing projects, skills, and achievements.
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:8B5CF6,100:0D1117" alt="Footer wave" />
 
 ```text
-$ rohit.exe --status
+$ rohit.Tech --status
 > build: in progress ✔   learning: never stops ✔
 > exit code 0. See you in the next commit.
 ```
