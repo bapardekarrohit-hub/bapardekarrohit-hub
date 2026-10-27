@@ -1,124 +1,192 @@
-<!-- ROHIT.exe | Developer Profile -->
+<!-- ============================================================
+  ROHIT.exe — GitHub Profile README
+  Search for "CUSTOMIZE" to find everything you should edit.
+  Username used in all stat links: bapardekarrohit-hub
+  Colors: midnight #0D1117 | cyan #00E5FF | violet #8B5CF6
+============================================================ -->
 
+<!-- ============ HERO / BANNER ============ -->
 <div align="center">
 
-# `ROHIT.tech`
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0D1117,50:00E5FF,100:8B5CF6&text=Code.%20Create.%20Improve.&fontColor=FFFFFF&fontSize=42&fontAlignY=38&desc=ROHIT.exe%20%E2%80%94%20running%20since%20day%20one&descAlignY=58&descSize=18" alt="Banner: Code. Create. Improve." />
 
-### Building ideas into working software.
+<!-- Animated typing intro. CUSTOMIZE: edit the lines between "lines=" and "&center" (use + for spaces, ; between lines) -->
+<a href="https://github.com/bapardekarrohit-hub">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=00E5FF&center=true&vCenter=true&width=700&lines=Data+Science+%26+Machine+Learning;Software+Development;Full-Stack+Web+Development;Android+App+Development" alt="Typing animation: Data Science, Software Development, Full-Stack Web, Android" />
+</a>
 
-**Computer Science Graduate · Developer · Problem Solver**
+<br/>
 
-[GitHub](https://github.com/bapardekarrohit-hub) · Exploring Data Science, Web & Android Development
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:09090B,50:312E81,100:06B6D4&height=150&section=header&text=Code.%20Create.%20Improve.&fontSize=30&fontColor=FFFFFF&fontAlignY=42" width="100%" alt="Code Create Improve banner"/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=900&color=22D3EE&center=true&vCenter=true&width=650&lines=Exploring+Data+Science+%26+AI;Building+Web+Applications;Developing+Android+Projects;Learning+Something+New+Every+Day)](https://git.io/typing-svg)
+<!-- CUSTOMIZE: replace the portfolio and LinkedIn URLs once you have them -->
+<a href="https://github.com/bapardekarrohit-hub"><img src="https://img.shields.io/badge/GitHub-bapardekarrohit--hub-0D1117?style=for-the-badge&logo=github&logoColor=00E5FF" alt="GitHub profile" /></a>
+<a href="https://YOUR-PORTFOLIO-URL"><img src="https://img.shields.io/badge/Portfolio-coming_soon-0D1117?style=for-the-badge&logo=vercel&logoColor=8B5CF6" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID"><img src="https://img.shields.io/badge/LinkedIn-connect-0D1117?style=for-the-badge&logo=linkedin&logoColor=00E5FF" alt="LinkedIn" /></a>
 
 </div>
 
----
+<br/>
 
-## `01` / SYSTEM PROFILE
+<!-- ============ ABOUT ============ -->
+## `> whoami`
 
-```javascript
-const rohit = {
-  role: "Computer Science Graduate",
-  interests: [
-    "Data Science & Machine Learning",
-    "Software Engineering",
-    "Full-Stack Development",
-    "Android Development"
-  ],
-  learning: ["Python", "SQL", "Statistics", "Kotlin"],
-  mindset: "Learn by building",
-  mission: "Turn problems into practical solutions"
-};
+```python
+# about_rohit.py
+class Rohit:
+    name      = "Rohit Wadekar"          # CUSTOMIZE: confirm your surname
+    role      = "Computer Science Graduate"
+    interests = ["AI", "Data Science", "Software Engineering",
+                 "Web Development", "Android Development"]
+    focus     = "Building practical projects and learning something new every week"
+
+    def motto(self):
+        return "Code. Create. Improve."
 ```
 
-I enjoy exploring how technology works and turning ideas into useful applications. I'm currently strengthening my programming fundamentals while developing projects that combine software engineering, data, and user-focused design.
+I enjoy programming and problem-solving, and I learn best by building things that work. Right now I'm focused on turning ideas into real projects across data, web, and mobile.
 
-## `02` / PROJECT LAB
+<br/>
+
+<!-- ============ TECH SKILLS ============ -->
+## `> skills --list`
+
+<!-- Legend: 🟢 = comfortable, 🟡 = still learning. CUSTOMIZE the 🟡 items honestly. -->
+
+**Programming Languages**
+
+<img src="https://skillicons.dev/icons?i=python,js,mysql,kotlin&theme=dark" alt="Python, JavaScript, SQL, Kotlin" />
+
+**Web Development** &nbsp; ![learning](https://img.shields.io/badge/React_&_Node.js-still_learning-8B5CF6?style=flat-square)
+
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs&theme=dark" alt="HTML, CSS, JavaScript, React, Node.js" />
+
+**Data Science** &nbsp; ![learning](https://img.shields.io/badge/Machine_Learning-still_learning-8B5CF6?style=flat-square)
+
+<img src="https://skillicons.dev/icons?i=python,pandas,numpy&theme=dark" alt="Python, Pandas, NumPy" />
+
+Statistics • Data Analysis • Machine Learning (in progress)
+
+**Android Development**
+
+<img src="https://skillicons.dev/icons?i=kotlin,androidstudio&theme=dark" alt="Kotlin, Android Studio" />
+
+**Tools**
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,supabase&theme=dark" alt="Git, GitHub, VS Code, Supabase" />
+
+<br/>
+
+<!-- ============ FEATURED PROJECTS ============ -->
+## `> ls ./projects`
+
+<!-- CUSTOMIZE: replace each "#" link with the real repository URL. Remove the link if the repo is private. -->
+<!-- CUSTOMIZE: verify the "Tech" lines match what each project really uses. -->
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
 
 ### 💸 SpendSense AI
-**Personal Finance · Android · Data Science**
+Android expense tracking app with spending summaries and visual analytics.
 
-An expense-tracking application concept designed to help users understand spending patterns and make smarter financial decisions.
+**Tech:** Kotlin · Android Studio · Jetpack Compose · Room · FastAPI backend
 
-- Record and organize expenses
-- Explore spending summaries and visual insights
-- Plan future intelligent spending analysis
+**Status:** 🚧 In progress. ML-based spending insights are planned, not finished.
 
-`Kotlin` `Android Studio` `Python — planned`
+[View repository](#) <!-- CUSTOMIZE -->
+
+</td>
+    <td width="50%" valign="top">
 
 ### 🏏 StratInnings
-**Cricket Analytics · Strategy Recommendation**
+Cricket strategy recommendation project: analyzes match situations and evaluates player decisions and risk.
 
-A cricket strategy project focused on evaluating match situations and helping players make better decisions.
+**Tech:** Python <!-- CUSTOMIZE: list the real stack -->
 
-- Analyze match scenarios
-- Explore player decisions and risk
-- Compare strategies and track performance
+[View repository](#) <!-- CUSTOMIZE -->
 
-`Web Development` `JavaScript` `Database — as implemented`
+</td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
 
 ### 🌐 Rohit Portfolio
-**Personal Portfolio · Web Development**
+Personal portfolio website showcasing projects, skills, and achievements.
 
-A home for my development journey, projects, skills, and achievements.
+**Tech:** HTML · CSS · JavaScript <!-- CUSTOMIZE: list the real stack --> · Hosted on Vercel
 
-`JavaScript` `HTML` `CSS — as implemented`
+[Live site](#) · [Repository](#) <!-- CUSTOMIZE -->
 
-> Project features and technology labels should be updated to match the code actually available in each repository.
+</td>
+  </tr>
+</table>
 
-## `03` / TECH ARSENAL
+<br/>
+
+<!-- ============ GITHUB STATS ============ -->
+## `> git stats`
 
 <div align="center">
 
-**LANGUAGES**
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=bapardekarrohit-hub&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00E5FF&icon_color=8B5CF6&text_color=C9D1D9" alt="GitHub stats" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bapardekarrohit-hub&layout=compact&hide_border=true&bg_color=0D1117&title_color=00E5FF&text_color=C9D1D9" alt="Most used languages" />
 
-<img src="https://skillicons.dev/icons?i=python,js,html,css,sql,kotlin&theme=dark" alt="Programming language icons"/>
+<img src="https://streak-stats.demolab.com?user=bapardekarrohit-hub&theme=dark&hide_border=true&background=0D1117&ring=00E5FF&fire=8B5CF6&currStreakLabel=00E5FF" alt="Contribution streak" />
 
-**DATA & MACHINE LEARNING**
-
-<img src="https://skillicons.dev/icons?i=numpy,pandas,sklearn&theme=dark" alt="Data science technology icons"/>
-
-**TOOLS & DEVELOPMENT**
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,androidstudio,react,nodejs,supabase&theme=dark" alt="Development tool icons"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=bapardekarrohit-hub&bg_color=0D1117&color=00E5FF&line=8B5CF6&point=FFFFFF&area=true&hide_border=true" alt="Contribution activity graph" />
 
 </div>
 
-## `04` / GITHUB ANALYTICS
+<!-- Note: stats cards only count public activity. They'll look sparse at first and grow as you commit. -->
+
+<br/>
+
+<!-- ============ LEARNING JOURNEY ============ -->
+## `> currently_learning`
+
+| Topic | Focus |
+|---|---|
+| 🐍 Python | Writing cleaner, more reusable code |
+| 🗃️ SQL | Queries, joins, and data analysis |
+| 📊 Statistics | Foundations for data-driven decisions |
+| 🤖 Data Science & ML | From data cleaning to simple models |
+| 🌐 Full-Stack Development | Connecting frontends, backends, and databases |
+| 📱 Android Development | Building polished Kotlin apps |
+
+<br/>
+
+<!-- ============ GOALS ============ -->
+## `> roadmap`
+
+- [ ] Complete real-world projects end to end
+- [ ] Strengthen problem-solving skills
+- [ ] Build data-driven applications
+- [ ] Contribute to open source
+- [ ] Prepare for software development opportunities
+
+<!-- Tip: tick a box by changing [ ] to [x] when you finish a goal. -->
+
+<br/>
+
+<!-- ============ CONNECT ============ -->
+## `> connect --me`
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=bapardekarrohit-hub&show_icons=true&hide_border=true&bg_color=09090B&title_color=22D3EE&icon_color=A78BFA&text_color=E4E4E7&rank_icon=github" alt="GitHub statistics"/>
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bapardekarrohit-hub&layout=compact&hide_border=true&bg_color=09090B&title_color=22D3EE&text_color=E4E4E7" alt="Most-used public repository languages"/>
-
-<img src="https://streak-stats.demolab.com?user=bapardekarrohit-hub&theme=black-ice&hide_border=true&background=09090B&ring=22D3EE&fire=A78BFA&currStreakLabel=22D3EE" alt="GitHub contribution streak"/>
+<a href="https://github.com/bapardekarrohit-hub"><img src="https://img.shields.io/badge/GitHub-Follow-0D1117?style=for-the-badge&logo=github&logoColor=00E5FF" alt="GitHub" /></a>
+<a href="https://www.linkedin.com/in/YOUR-LINKEDIN-ID"><img src="https://img.shields.io/badge/LinkedIn-Connect-0D1117?style=for-the-badge&logo=linkedin&logoColor=8B5CF6" alt="LinkedIn" /></a>
+<a href="https://YOUR-PORTFOLIO-URL"><img src="https://img.shields.io/badge/Portfolio-Visit-0D1117?style=for-the-badge&logo=vercel&logoColor=00E5FF" alt="Portfolio" /></a>
 
 </div>
 
-## `05` / CURRENT OBJECTIVES
-
-- [x] Start building personal software projects
-- [ ] Strengthen Python and SQL
-- [ ] Develop data-driven application features
-- [ ] Improve full-stack development skills
-- [ ] Explore machine learning with real datasets
-- [ ] Contribute to open-source projects
-
-## `06` / CONNECT
-
+<!-- ============ FOOTER ============ -->
 <div align="center">
 
-[![GitHub](https://img.shields.io/badge/GitHub-09090B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bapardekarrohit-hub)
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:8B5CF6,100:0D1117" alt="Footer wave" />
 
-Add your LinkedIn and portfolio links here when available.
-
-**Thanks for visiting my digital workspace.**
-
-<sub>Designed with curiosity, built with code. · ROHIT.exe</sub>
+```text
+$ rohit.exe --status
+> build: in progress ✔   learning: never stops ✔
+> exit code 0. See you in the next commit.
+```
 
 </div>
