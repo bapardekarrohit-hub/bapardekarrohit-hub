@@ -32,7 +32,7 @@
 # about_rohit.py
 class RohitTech:
     name      = "Rohit Bapardekar"
-    role      = "Computer Science Graduate"
+    education = "B.Sc. Computer Science, Mumbai University (2023-2026)"
     interests = ["AI", "Data Science", "Software Engineering",
                  "Web Development", "Android Development"]
     focus     = "Building practical projects and learning something new every week"
@@ -93,11 +93,11 @@ I enjoy programming and problem-solving, and I learn best by building things tha
     <td width="50%" valign="top">
 
 ### 💸 SpendSense AI
-Android expense tracking app with spending summaries and visual analytics.
+Android personal finance and expense analytics app with spending summaries, a weekly chart, and a dark glass-style UI.
 
 **Tech:** Kotlin · Jetpack Compose · Material 3 · Room · Vico Charts
 
-**Status:** 🚧 In progress. A Python (FastAPI, Pandas, Scikit-learn) backend for ML-based spending insights is planned, not finished.
+**Status:** 🚧 In progress. Analytics and CSV import come next, then a Python backend (FastAPI, Pandas, Scikit-learn) for ML-based spending insights. The ML part is planned, not finished.
 
 [View repository](#) <!-- CUSTOMIZE -->
 
@@ -114,18 +114,51 @@ Cricket strategy recommendation project: analyzes match situations and evaluates
 </td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
+    <td width="50%" valign="top">
 
 ### 🌐 Rohit Portfolio
-Personal portfolio website showcasing projects, skills, certificates, and achievements.
+Animated personal portfolio, designed to look the same on desktop and phone, with sections for projects, skills, and a clickable certificates gallery.
 
 **Tech:** HTML · CSS · JavaScript <!-- CUSTOMIZE: list the real stack --> · Deployed on Vercel
+
+**Status:** 🚧 Live. An owner-only admin dashboard is planned.
 
 [Live site](https://rohit-portfolio-five-bice.vercel.app) · [Repository](#) <!-- CUSTOMIZE -->
 
 </td>
+    <td width="50%" valign="top">
+
+### 🕵️ Fake Productivity Detector
+Academic project. <!-- CUSTOMIZE: add a one-line description of what it does -->
+
+**Tech:** Python <!-- CUSTOMIZE: list the real stack -->
+
+[View repository](#) <!-- CUSTOMIZE -->
+
+</td>
   </tr>
 </table>
+
+<br/>
+
+<!-- ============ EXPERIENCE ============ -->
+## `> experience --log`
+
+- 🌐 **Web Development Intern**, InAmigos Foundation <!-- CUSTOMIZE: add dates or a one-line summary of what you built -->
+
+<br/>
+
+<!-- ============ CERTIFICATIONS ============ -->
+## `> certificates --verified`
+
+<!-- CUSTOMIZE: link each certificate to its verification URL (replace "#") -->
+
+| Certificate | Issuer | Date |
+|---|---|---|
+| Software Engineering Job Simulation (Project Setup, Kafka, H2, REST API Integration and Controller) | JPMorgan Chase & Co. via Forage | Aug 2026 · [View](#) |
+| Data Visualisation: Empowering Business with Effective Insights | Tata via Forage | Aug 2026 · [View](#) |
+| Introduction to MS Excel | Simplilearn SkillUP (powered by Microsoft) | Aug 2026 · [View](#) |
+| Python for Data Science and Machine Learning Bootcamp (25 hrs) | Udemy | Sep 2026 · [View](#) |
 
 <br/>
 
@@ -165,10 +198,12 @@ Personal portfolio website showcasing projects, skills, certificates, and achiev
 ## `> roadmap`
 
 - [ ] Complete real-world projects end to end
+- [ ] Finish SpendSense AI, including the ML backend
+- [ ] Add an owner-only admin dashboard to my portfolio
 - [ ] Strengthen problem-solving skills
 - [ ] Build data-driven applications
 - [ ] Contribute to open source
-- [ ] Prepare for software development opportunities
+- [ ] Prepare for software development and data analytics opportunities
 
 <!-- Tip: tick a box by changing [ ] to [x] when you finish a goal. -->
 
